@@ -1,0 +1,23 @@
+{
+  "name": "hono-chat-node",
+  "type": "module",
+  "scripts": {
+    "dev": "tsx watch src/index.ts",
+    "build": "tsc",
+    "start": "node dist/index.js"
+  },
+  "dependencies": {
+    "@ai-sdk/groq": "^1.0.6",
+    "@hono/node-server": "^1.13.7",
+    "ai": "^4.0.12",
+    "dotenv": "^16.4.7",
+    "hono": "^4.6.13",
+    "hono-rate-limiter": "^0.4.2"
+  },
+  "devDependencies": {
+    "@types/node": "^20.11.17",
+    "tsc-alias": "^1.8.10",
+    "tsx": "^4.7.1",
+    "typescript": "^5.7.2"
+  }
+}
